@@ -1,0 +1,126 @@
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-size: 50px;
+  
+}
+h2{
+  font-size: 40px;
+}
+p{
+  color: black;
+  
+}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    margin-left: 10%;
+  }
+  
+  .topnav a {
+    float: right;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .half-width{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 5%;
+    
+}
+.half-width img{
+    width: 100%;
+    margin-top: 10%;
+}
+section{
+    height: 500px;
+    padding-top: 0%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 10%;
+}
+.dream-area{
+    
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 80%;
+  background-color: white;
+}
+.experience-area{
+  background-color: lightgray;
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: center;
+  text-decoration-color: orangered;
+
+}
+.column {
+  float: left;
+  width: 30%;
+  height: 30%;
+  padding: 10px;
+  background-color: white;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.purple{
+  
+  margin-left: 360px;
+  margin-top: 150px;
+}
+.text-block {
+  bottom: 70px;
+
+}
+.box{
+  position: relative;
+  display: inline-block;
+  margin-left: 360px;
+  margin-top: 150px; 
+}
+.box .text{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 10;
+  right: 20;
+  top: 30%; 
+  text-align: center;
+  width: 60%; 
+  color: white;
+  font-weight: bolder;
+}
+.button{
+  text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 10%;
+    margin-right: 20px;
+}
+
